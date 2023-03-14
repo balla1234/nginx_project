@@ -76,3 +76,99 @@
    76  sudo cp -r  * /var/www/html
    77  ls
    78  history
+   
+       1  apt-get update
+    2  ls
+    3  apt install nginx
+    4  systemctl nginx status
+    5  systemctl status nginx
+    6  ls
+    7  cd /var/www/html
+    8  ls
+    9  cat index.nginx-debian.html
+   10  ls
+   11  cd
+   12  pwd
+   13  cd /etc/nginx
+   14  ls
+   15  cat nginx.conf
+   16  ls
+   17  cd sites-enabled
+   18  ls
+   19  vim default
+   20  cd ..
+   21  ls
+   22  cd
+   23  cd /var/www/html
+   24  ls
+   25  vim index.html
+   26  ls
+   27  cd
+   28  git clone https://github.com/balla1234/django-notes-app.git
+   29  ls
+   30  cd django-notes-app
+   31  ls
+   32  apt-get install docker.io -y
+   33  ls
+   34  docker ps
+   35  ls
+   36  docker images
+   37  docker build -t myimg:1 .
+   38  docker run -d -p 8000:8000 myimg:1
+   39  docker ps
+   40  curl http://35.175.134.238:8000/
+   41  ls
+   42  cd
+   43  cd /etc/nginx
+   44  ls
+   45  cd sites-enabled
+   46  ls
+   47  sudo vim default
+   48  systemctl restart nginx
+   49  ls
+   50  cd
+   51  ls
+   52  cd django-notes-app
+   53  ls
+   54  cd staticfiles
+   55  ls
+   56  sudo cp -r /var/www/html
+   57  sudo cp -r  * /var/www/html
+   58  ls
+   59  cd
+   60  cd /var/www/html
+   61  ls
+   62  sudo cp -r css static
+   63  ls
+   64  rm -rf static
+   65  ls
+   66  rm -rf admin
+   67  ls
+   68  cd
+   69  ls
+   70  cd django-notes-app
+   71  ls
+   72  cd mynotes
+   73  ls
+   74  cd build
+   75  ls
+   76  sudo cp -r  * /var/www/html
+   77  ls
+   78  history
+   79  cd /etc/nginx/sites-enabled
+   80  ls
+   81  vim default
+   82  systemctl restart nginx
+   83  sudo systemctl restart nginx
+   84  cd
+   85  systemctl restart nginx
+   86  systemctl status nginx.service
+   87  systemctl restart nginx.service
+   88  cd /etc/nginx/sites-enabled
+   89  vi default
+   90  systemctl restart nginx
+   91  cd
+   92  history
+
+   
+   
